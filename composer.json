@@ -1,5 +1,5 @@
 {
-    "name": "Nicklasos/router",
+    "name": "nicklasos/router",
     "description": "Sinatra like router",
     "minimum-stability": "dev",
     "authors": [
