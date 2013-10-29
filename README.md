@@ -19,9 +19,8 @@ $app->get('/', function () {
 });
 
 $app->get('test/views', function () use ($view) {
-
     return $view->render('index', [
-        'viewName' => 'index.php',
+        'viewName' => 'This is index.php view file',
         'title' => 'Layout'
     ]);
 });
