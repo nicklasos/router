@@ -76,12 +76,4 @@ class App
     {
         $this->notFoundCallback = $callback;
     }
-    
-    public function isAjax()
-    {
-        return
-            isset($_SERVER['HTTP_X_REQUESTED_WITH']) &&
-            $_SERVER['HTTP_X_REQUESTED_WITH'] &&
-            strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
-    }
 }
