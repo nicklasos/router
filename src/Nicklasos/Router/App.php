@@ -43,7 +43,12 @@ class App
 
         if ($this->foundRoute === false) {
             $notFoundCallback = $this->notFoundCallback;
-            echo $notFoundCallback();
+            header("HTTP/1.0 404 Not Found");
+            if ($notFoundCallback) {
+                echo $notFoundCallback();
+            } else {
+                echo '404';
+            }
         }
     }
 
