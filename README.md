@@ -1,12 +1,14 @@
 #Usage:
 
 ##Install from composer
+```json
 {
     "require": {
         "nicklasos/router": "dev-master"
     }
 
 }
+```
 
 ##Router
 ```php
