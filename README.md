@@ -6,7 +6,6 @@
     "require": {
         "nicklasos/router": "dev-master"
     }
-
 }
 ```
 
